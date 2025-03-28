@@ -1,6 +1,8 @@
 
 import { Header } from './components/Header'
 import { Hero } from './components/Hero'
+import { About } from './components/About'
+import { Timeline } from './components/Timeline'
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <About />
+        <Timeline />
       </main>
     </div>
   )
