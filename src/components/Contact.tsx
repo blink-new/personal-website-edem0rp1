@@ -2,9 +2,9 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Send, Mail, Phone, MapPin } from 'lucide-react'
-import { Button } from './ui/button'
-import { Input } from './ui/input'
-import { Textarea } from './ui/textarea'
+import { Button } from '@/components/ui/button'
+import { Input } from '@/components/ui/input'
+import { Textarea } from '@/components/ui/textarea'
 import { toast } from 'sonner'
 
 const contactInfo = [
