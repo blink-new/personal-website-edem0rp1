@@ -1,6 +1,5 @@
 
 import { BrowserRouter } from 'react-router-dom'
-import { Toaster } from 'sonner'
 import { Hero } from './components/Hero'
 import { About } from './components/About'
 import { Timeline } from './components/Timeline'
@@ -19,7 +18,6 @@ function App() {
           <Contact />
           <Footer />
         </main>
-        <Toaster position="top-right" />
       </ThemeProvider>
     </BrowserRouter>
   )
